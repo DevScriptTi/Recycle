@@ -16,7 +16,7 @@ export const DashboardNavUpBar = () => {
             <Menu className="text-light-on-surface dark:text-dark-on-surface" />
           </span>
           <NavUppBarLogo
-            logoPicture={"/public/assets/dark-logo.png"}
+            logoPicture={"assets/dark-logo.png"}
             logoName={"Autorio-Logo"}
           />
           <NavUppBarMode />

@@ -21,7 +21,7 @@ export const NavUppBar = ({ children }) => {
     <NavUppBarContext>
       <div className="h-header sticky inset-x-0 z-30">
         <NavUppBarContainer>
-          <NavUppBarLogo logoPicture={"/public/assets/light-logo.png"} logoName={"Autorio-Logo"} />
+          <NavUppBarLogo logoPicture={"assets/light-logo.png"} logoName={"Autorio-Logo"} />
           <NavUppBarMode />
           <NavUppBarMiddleNav>
           <NavUppBarMiddleLink href={"/#"}>
